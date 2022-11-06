@@ -1,0 +1,32 @@
+const ns :number = 100
+let ss : string = "sss"
+const bs  : boolean = true
+console.log(ns+ss+bs)
+
+
+let abc = {name:'st',age:30,lang:[
+    {'l_name':'c++'},
+    {'语言名字':'python'}
+]}
+
+
+abc.lang[0].语言名字 = 's'
+
+console.log(abc)
+
+
+
+//  数组的使用，及类型定义
+
+let myarr1: (string|number|boolean)[] = ["abc",1122, true]
+//  这样不可以
+// let myarr2: (string & number)[] = ["abc",1122]
+
+//  使用对象类型的数组，可以接受所有类型
+let myarr3: {}[] = ["abc",1122, true,{},[]]
+
+
+
+
+
+
